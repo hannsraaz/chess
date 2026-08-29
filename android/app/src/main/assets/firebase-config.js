@@ -1,5 +1,5 @@
 window.FIREBASE_CONFIG = {
-  apiKey: "AIzaSyDeXc32a6pCLi1Ki6wsyDum_JXbLO2Keus",
+  apiKey: " ",
   authDomain: "chess-a9ce7.firebaseapp.com",
   projectId: "chess-a9ce7",
   storageBucket: "chess-a9ce7.firebasestorage.app",
