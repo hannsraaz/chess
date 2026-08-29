@@ -1,0 +1,46 @@
+# Gradle & Android Caches
+.gradle/
+**/.gradle/
+.gradle-user-home/
+**/.gradle-user-home/
+.android-home/
+**/.android-home/
+.kotlin/
+**/.kotlin/
+build/
+**/build/
+
+# Android Studio
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+
+# Android
+.android/
+**/.android/
+local.properties
+**/local.properties
+
+# Signing
+*.jks
+*.keystore
+key.properties
+keystore.properties
+**/key.properties
+**/keystore.properties
+
+# Secrets
+.env
+.env.*
+
+# Native
+.cxx/
+.externalNativeBuild/
+
+# Generated
+captures/
+
+# OS
+.DS_Store
+Thumbs.db

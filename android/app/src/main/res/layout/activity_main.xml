@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1d1a17"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingHorizontal="12dp"
+    android:paddingVertical="10dp">
+
+    <TextView
+      android:id="@+id/userLabel"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:ellipsize="end"
+      android:maxLines="1"
+      android:textColor="#EEE8DD"
+      android:textSize="13sp" />
+
+    <Button
+      android:id="@+id/signOutBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="#5f5a53"
+      android:minHeight="0dp"
+      android:paddingHorizontal="12dp"
+      android:paddingVertical="6dp"
+      android:text="@string/sign_out"
+      android:textAllCaps="false"
+      android:textColor="#FFFFFF" />
+  </LinearLayout>
+
+  <WebView
+    android:id="@+id/webView"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1" />
+
+</LinearLayout>

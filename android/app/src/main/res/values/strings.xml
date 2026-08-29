@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Chess Arena</string>
+  <string name="sign_out">Sign out</string>
+  <string name="sign_in_google">Sign in with Google</string>
+  <string name="login_required">Please sign in first to start playing.</string>
+  <string name="login_failed_try_again">Sign-in failed. Please try again.</string>
+  <string name="signed_in_as">Signed in: %1$s</string>
+</resources>
